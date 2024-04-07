@@ -1,0 +1,51 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body {
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(image/overwatch-all-heroes-united-hd-dpacmg5qk3abi7qn.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.OWlogo{
+    position:fixed;
+    height:auto;
+    left:10px;
+    height: 70px;
+    vertical-align:middle;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    background: white;
+    overflow: hidden;
+    color:white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition:ls;
+}
+nav.black ul{
+
+    background:#000;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
