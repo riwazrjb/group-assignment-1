@@ -101,12 +101,34 @@ footer ul li a {
     opacity: 1;
        border-bottom: 1px solid black;
   }
- footer label{
+ footer form{
     display: flex;
   justify-content: center;
   align-items: center;
   
    
+  }
+ footer form input{
+    border:none;
+    width: 100px;
+    height: 20px;
+    padding: 0 16px;
+background-color: rgb(215, 213, 213);
+  }
+  footer form button{
+   
+    top: 0;
+    right: 0;
+    bottom: 0;
+height: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(138, 135, 135);
+    text-transform: capitalize;
+  }
+  footer form button:hover{
+    background-color: black;
   }
  /* footer {
     background-color: #333; 
