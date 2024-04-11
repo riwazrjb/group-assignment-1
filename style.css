@@ -96,6 +96,13 @@ nav ul li a {
   footer ul li a:hover {
     opacity: 1;
   }
+ footer label{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+   
+  }
  /* footer {
     background-color: #333; 
     color: #fff; 
