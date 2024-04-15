@@ -7,8 +7,14 @@ body {
     font-family: Inter , sans-serif;
     background-color: rgb(215, 213, 213);
 }
+body .text p::first-letter{
+font-size: 1.5em ;
+}
 p::selection{
   background-color: white;
+}
+body .text p::first-line{
+  text-decoration: underline;
 }
 .Dps::before{
 content: "⚔";
@@ -20,9 +26,13 @@ content: "⚔";
 .Healer::before{
   content: "⛑";
 }
- li::marker{
+ body .text li::marker{
   color:rgb(121, 118, 118);
 }
+body .text li::after{
+  content: " ✔";
+}
+
 
 header{
     width: 100%;
@@ -81,7 +91,7 @@ nav ul li a {
     font-size: 16px;
   }
   footer {
- 
+    
     background-color: white;
 
   }
@@ -102,6 +112,7 @@ nav ul li a {
     padding: 0px 15px;
   }
   footer p{
+    
     margin-top: 0px;
     margin-bottom: 1px;
     text-align: center;
@@ -142,12 +153,13 @@ footer ul li a {
     padding: 0 16px;
 background-color: rgb(215, 213, 213);
   }
+ 
   footer form button{
    
     top: 0;
     right: 0;
     bottom: 0;
-height: 20px;
+    height: 20px;
     border: none;
     outline: none;
     color: white;
