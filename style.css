@@ -7,6 +7,23 @@ body {
     font-family: sans-serif;
     background-color: rgb(215, 213, 213);
 }
+p::selection{
+  background-color: white;
+}
+.Dps::before{
+content: "⚔";
+}
+.Tank::before{
+  content: "🛡";
+
+}
+.Healer::before{
+  content: "⛑";
+}
+ li::marker{
+  color:rgb(121, 118, 118);
+}
+
 header{
     width: 100%;
     height: 100vh;
@@ -64,9 +81,7 @@ nav ul li a {
     font-size: 16px;
   }
   footer {
-    margin: 0;
-    padding: 30px 0;
-    box-sizing: border-box;
+ 
     background-color: white;
 
   }
@@ -108,6 +123,18 @@ footer ul li a {
   
    
   }
+  #footlink:link{
+   color:rgb(51, 50, 50);
+  }
+  #footlink:hover{
+    color : rgb(112, 111, 111);
+    font-size: 1.2em;
+    text-transform: lowercase;
+  }
+  #footlink:visited{
+    color: rgb(138, 135, 135);
+  }
+  
  footer form input{
     border:none;
     width: 100px;
@@ -130,18 +157,4 @@ height: 20px;
   footer form button:hover{
     background-color: black;
   }
- /* footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center; 
-  }
-  
-  .container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-  }
-  
-  .container p {
-    margin: 0; 
-  }*/
+ 
